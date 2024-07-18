@@ -15,20 +15,20 @@ img {
 }
 @font-face {
 	font-family:"OPlusSans3-Regular";
-	src:url("https://cup.oisin.cn/font/OPPOSans/OPlusSans3-Medium.subset.woff2") format("woff2");
+	src:url("fonts/OPPOSans/OPlusSans3-Medium.subset.woff2") format("woff2");
 	font-style:normal;
 	font-weight:normal;
 }
 @font-face {
 	font-family:"HarmonyOS_Regular";
-	src:url("http://caotongxue.cn/wp-content/themes/cjy/font/HarmonyOS_Regular.e.woff2") format("woff2");
+	src:url("fonts/HarmonyOS_Regular.e.woff2") format("woff2");
 	font-style:normal;
 	font-weight:normal;
 }
 /*鸿蒙字体*/
 @font-face {
 	font-family:"cangeryun";
-	src:url("http://caotongxue.cn/wp-content/themes/cjy/font/cangeryunhei-W04.woff") format("woff");
+	src:url("fonts/cangeryunhei-W04.woff") format("woff");
 	font-style:normal;
 	font-weight:normal;
 }
@@ -51,16 +51,16 @@ html,body {
 	/*解决手机端a标签或其他点击事件出现遮罩层或闪屏问题 */
 	word-wrap:break-word !important;
 	scroll-behavior:smooth;/*让容器的滚动变得平滑*/
-	cursor:url('http://caotongxue.cn/wp-content/themes/cjy/shubiao/001.cur'),pointer;
+	cursor:url('cur/001.cur'),pointer;
 	/*自定义鼠标*/
 }
 
 a {
-	cursor:url('http://caotongxue.cn/wp-content/themes/cjy/shubiao/003.cur'),pointer;
+	cursor:url('cur/003.cur'),pointer;
 	/*自定义鼠标*/
 }
 p {
-	cursor:url('http://caotongxue.cn/wp-content/themes/cjy/shubiao/002.cur'),pointer;
+	cursor:url('cur/002.cur'),pointer;
 	/*自定义鼠标*/
 }
 
